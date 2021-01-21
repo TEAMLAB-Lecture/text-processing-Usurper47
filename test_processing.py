@@ -19,7 +19,7 @@ def no_vowels(input_string:str) -> str:
   res = ''
   
   for i in input_string:
-    if i in set_:
+    if i.lower() in set_:
       continue
     res += i
   
